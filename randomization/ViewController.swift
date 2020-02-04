@@ -22,7 +22,9 @@ class ViewController: UIViewController {
         let messages = ["Yes",
                         "No",
                         "Likely So",
-                        "Unlikely"]
+                        "Unlikely",
+                        "Maybe",
+                        "Try again"]
         messageLabel.text = messages.randomElement()
         
         //if index == messages.count-1 {
